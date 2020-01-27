@@ -37,7 +37,7 @@ const MyExperiment = () => {
 
 const App = () => (
   <React.Suspense fallback="Loading...">
-    <MyExperiment experimentId="YOUR_EXPERIMENT_ID" />
+    <MyExperiment />
   </React.Suspense>
 );
 ```
