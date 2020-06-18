@@ -10,7 +10,7 @@ const App = () => {
   // variant id default is 0
   return (
     <React.Suspense fallback="Loading...">
-      <Experiment experimentId="YOUR_EXPERIMENT_ID" timeout={1000}>
+      <Experiment id="YOUR_EXPERIMENT_ID" timeout={1000}>
         <Variant>Default Variant</Variant>
         <Variant id={1}>Experimental Variant</Variant>
       </Experiment>
